@@ -130,28 +130,3 @@ streamlit run app.py
 Open your browser at `http://localhost:8501`.
 
 ---
-
-## ☁️ Deployment to Streamlit Community Cloud
-
-IncidentIQ is designed for 1-click deployment on **Streamlit Community Cloud**:
-
-1. Push your repository to GitHub (ensure `.env` is ignored by `.gitignore`).
-2. Go to [share.streamlit.io](https://share.streamlit.io) and connect your repository.
-3. Set the Main file path to `app.py`.
-4. In **Advanced Settings -> Secrets**, add:
-```toml
-GEMINI_API_KEY = "your_gemini_api_key"
-QDRANT_URL = "https://your-cluster.qdrant.io"
-QDRANT_API_KEY = "your_qdrant_api_key"
-DATABASE_URL = "postgresql://postgres:your_password@db.your_ref.supabase.co:5432/postgres"
-```
-5. Click **Deploy**!
-
----
-
-## 💼 Resume Positioning & Technical Highlights
-
-- **Agentic AI & LangGraph**: Designed a production-style agentic workflow coordinating multi-source data retrieval, state management, and evidence-based LLM synthesis.
-- **Model Context Protocol (FastMCP)**: Implemented FastMCP tool server and client interfaces connecting LLMs to live operational SQL telemetry.
-- **Cloud Vector DB & RAG**: Built semantic search pipeline using Qdrant Cloud and Google Gemini embeddings with metadata filtering and cosine similarity ranking.
-- **Enterprise Observability Correlation**: Engineered automated correlation across timeseries metrics, error logs, and historical postmortems to reduce Mean Time to Resolution (MTTR).
