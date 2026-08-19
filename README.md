@@ -1,6 +1,6 @@
 # ⚡ IncidentIQ — Agentic AI Incident Investigation System
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pris25123-incidentiq-app-thcgio.streamlit.app/)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph-green.svg)](https://github.com/langchain-ai/langgraph)
 [![MCP](https://img.shields.io/badge/Protocol-Model_Context_Protocol_(FastMCP)-cyan.svg)](https://modelcontextprotocol.io/)
